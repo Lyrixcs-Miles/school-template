@@ -8,11 +8,15 @@ In VS Code (with the `School` folder open), type a word and press **Tab**. Press
 | Type | In a... | You get |
 |---|---|---|
 | `pytest` | `.py` | A test (run with `python -m pytest`) |
+| `pytry` | `.py` | Catch an error instead of crashing |
+| `pydef` | `.py` | A function |
 | `cppheader` | `.h` | A header file with `#pragma once` |
 | `cppclass` | `.cpp` / `.h` | A class with a constructor |
-| `pyclass` | `.py` | A Python class |
+| `pyclass` | `.py` | A class |
 | `note` | `.md` | A topic note |
 | `bug` | `.md` | Record an error, its cause, and the fix |
+| `quiz` | `.md` | A question with a hidden answer, for revision |
+| `vs` | `.md` | Compare two things (TCP vs UDP, list vs tuple) |
 | `project` | `.md` | A project README |
 
 Full list: the main `README.md` at the top of the `School` folder.

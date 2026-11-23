@@ -8,10 +8,15 @@ In VS Code (with the `School` folder open), type a word and press **Tab**. Press
 | Type | In a... | You get |
 |---|---|---|
 | `pymain` | `.py` | A full Python program with `main()` |
-| `pyread` | `.py` | Read a text file line by line |
-| `pyclass` | `.py` | A Python class |
+| `pyread` | `.py` | Read a file line by line |
+| `pycsv` | `.py` | Read a CSV file |
+| `pyjson` | `.py` | Load and save JSON data |
+| `pycomp` | `.py` | Build a list in one line |
+| `pyclass` | `.py` | A class |
 | `note` | `.md` | A topic note |
 | `bug` | `.md` | Record an error, its cause, and the fix |
+| `quiz` | `.md` | A question with a hidden answer, for revision |
+| `vs` | `.md` | Compare two things (TCP vs UDP, list vs tuple) |
 | `project` | `.md` | A project README |
 
 Full list: the main `README.md` at the top of the `School` folder.
