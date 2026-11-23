@@ -703,8 +703,11 @@
     "prefix": "quiz",
     "description": "A question with a hidden answer, for revision",
     "body": [
+      "## Test yourself",
+      "",
       "**Q: ${1:Question}**",
-      "<details><summary>Answer</summary>",
+      "<details>",
+      "<summary>Answer</summary>",
       "",
       "${0:Answer}",
       "",
