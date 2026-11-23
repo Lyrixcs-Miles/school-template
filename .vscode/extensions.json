@@ -6,6 +6,11 @@
     "ms-python.debugpy",
     "ritwickdey.LiveServer",
     "yzhang.markdown-all-in-one",
-    "qwtel.sqlite-viewer"
+    "qwtel.sqlite-viewer",
+    "formulahendry.code-runner",
+    "vscjava.vscode-java-pack",
+    "ms-dotnettools.csharp",
+    "golang.go",
+    "rust-lang.rust-analyzer"
   ]
 }

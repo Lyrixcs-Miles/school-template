@@ -17,6 +17,15 @@ Build things: it's the fastest way to learn. Put each project in the
 - [ ] **Intermediate:** text adventure game · Snake in the terminal
 - [ ] **Advanced:** your own simple `vector` or `string` class · a game with SFML or raylib
 
+## Other languages
+Rebuilding a project you already made in Python is a great way to learn a new language.
+- [ ] **C:** a calculator · your own `strlen`, `strcpy`, and a dynamic array that grows with `realloc`
+- [ ] **Java:** a library or bank system with classes · a to-do app that saves to a file
+- [ ] **JavaScript (Node):** a command-line to-do list that saves JSON · a quiz game in the terminal
+- [ ] **C#:** a console inventory manager with LINQ · a small Unity game
+- [ ] **Go:** a URL shortener web server · a tool that checks if a list of websites is up (using goroutines)
+- [ ] **Rust:** a command-line word counter · a `grep` clone (the Rust Book walks you through one)
+
 ## Data Structures and Algorithms
 - [ ] Build each structure yourself: linked list, stack, queue, hash map, BST
 - [ ] A sorting algorithm visualiser (Python with matplotlib, or the web)

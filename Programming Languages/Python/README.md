@@ -2,6 +2,8 @@
 
 Run a file with `python main.py`, or press the ▶ button at the top right of VS Code (it runs in the terminal, so `input()` works).
 
+Quick reference: `Resources/cheatsheet.md`.
+
 ## Shortcuts
 In VS Code (with the `School` folder open), type a word and press **Tab**. Press **Tab** again to jump to the next blank. If nothing happens, press **Ctrl+Space** and pick it.
 
@@ -22,7 +24,7 @@ In VS Code (with the `School` folder open), type a word and press **Tab**. Press
 | `pycsv` | `.py` | Read a CSV file |
 | `pyjson` | `.py` | Load and save JSON data |
 | `pytest` | `.py` | A test (run with `python -m pytest`) |
-| `problem` | `.cpp` / `.py` | Practice-problem header: name, link, idea, Big-O |
+| `problem` | most code files | Practice-problem header: name, link, idea, Big-O |
 | `note` | `.md` | A topic note |
 | `bug` | `.md` | Record an error, its cause, and the fix |
 | `quizstart` | `.md` | A **Test yourself** heading plus the first quiz question |

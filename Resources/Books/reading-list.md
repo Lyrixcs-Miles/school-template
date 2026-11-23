@@ -10,6 +10,9 @@ download in this folder (PDFs aren't uploaded to GitHub, so they stay on this PC
 | [ ] | *Automate the Boring Stuff with Python*, Al Sweigart | Python (beginner, practical) | https://automatetheboringstuff.com |
 | [ ] | *Think Python*, Allen Downey | Python (beginner, thinking like a programmer) | https://allendowney.github.io/ThinkPython/ |
 | [ ] | *Learn C++* (a free online book-length tutorial) | C++ | https://www.learncpp.com |
+| [ ] | *Beej's Guide to C Programming*, Brian Hall | C | https://beej.us/guide/bgc/ |
+| [ ] | *Think Java*, Allen Downey and Chris Mayfield | Java (beginner) | https://greenteapress.com/wp/think-java-2e/ |
+| [ ] | *The Rust Programming Language* ("The Book") | Rust | https://doc.rust-lang.org/book/ |
 | [ ] | *Open Data Structures*, Pat Morin | Data Structures | https://opendatastructures.org |
 | [ ] | *Algorithms*, Jeff Erickson | Algorithms (harder) | https://jeffe.cs.illinois.edu/teaching/algorithms/ |
 | [ ] | *Book of Proof*, Richard Hammack | Math for CS (proofs) | https://www.people.vcu.edu/~rhammack/BookOfProof/ |
@@ -20,7 +23,7 @@ download in this folder (PDFs aren't uploaded to GitHub, so they stay on this PC
 | [ ] | *Pro Git*, Scott Chacon | Git | https://git-scm.com/book |
 | [ ] | *The Linux Command Line*, William Shotts | Linux | https://linuxcommand.org/tlcl.php |
 | [ ] | *Software Engineering at Google* | Software Engineering | https://abseil.io/resources/swe-book |
-| [ ] | *Eloquent JavaScript*, Marijn Haverbeke | Web (JavaScript) | https://eloquentjavascript.net |
+| [ ] | *Eloquent JavaScript*, Marijn Haverbeke | JavaScript (and the web) | https://eloquentjavascript.net |
 | [ ] | *Python Data Science Handbook*, Jake VanderPlas | AI / data (NumPy, pandas) | https://jakevdp.github.io/PythonDataScienceHandbook/ |
 | [ ] | *Dive into Deep Learning* | AI (neural networks) | https://d2l.ai |
 

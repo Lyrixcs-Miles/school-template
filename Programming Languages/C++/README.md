@@ -7,6 +7,8 @@ g++ -std=c++23 -Wall -g main.cpp -o main.exe
 ```
 Open the `School` folder in VS Code (File → Open Folder). Then press **Ctrl+Shift+B** on any `.cpp` file to build and run it.
 
+Quick reference: `Resources/cheatsheet.md`.
+
 ## Shortcuts
 In VS Code (with the `School` folder open), type a word and press **Tab**. Press **Tab** again to jump to the next blank. If nothing happens, press **Ctrl+Space** and pick it.
 
@@ -25,7 +27,7 @@ In VS Code (with the `School` folder open), type a word and press **Tab**. Press
 | `cppfile` | `.cpp` | Read a file line by line (needs `<fstream>`) |
 | `cppmenu` | `.cpp` | A numbered menu that repeats until Quit |
 | `cpprandom` | `.cpp` | A random number in a range (needs `<random>`) |
-| `problem` | `.cpp` / `.py` | Practice-problem header: name, link, idea, Big-O |
+| `problem` | most code files | Practice-problem header: name, link, idea, Big-O |
 | `note` | `.md` | A topic note |
 | `bug` | `.md` | Record an error, its cause, and the fix |
 | `quizstart` | `.md` | A **Test yourself** heading plus the first quiz question |

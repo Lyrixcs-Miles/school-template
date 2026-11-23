@@ -5,11 +5,16 @@
 build/
 bin/
 obj/
+*.pdb
+target/
 
 # Python
 __pycache__/
 *.pyc
 .venv/
+
+# JavaScript
+node_modules/
 venv/
 
 # Big files: keep these on disk, not in Git (GitHub rejects files over 100 MB)

@@ -9,7 +9,7 @@ with notes, exercises, projects, checklists, templates, and VS Code shortcuts.
 School
 ├── Inbox                     ← drop downloads here, sort them weekly
 ├── Planning                  ← goals, study log, weekly plan, Career (CV, portfolio, applications, interview prep)
-├── Programming Languages     → Python, C++
+├── Programming Languages     → Python, C++, C, Java, JavaScript, C#, Go, Rust
 ├── Computer Science Core     → Data Structures and Algorithms, Math for CS,
 │                               Computer Architecture, Operating Systems, Computer Networks
 ├── Tools and Workflow        → Git and GitHub, IT Fundamentals, Linux and Command Line,
@@ -28,8 +28,9 @@ Always open the `School` folder itself, not a subfolder, or the shortcuts and ru
 **Each study session:**
 1. **Learn:** watch or read the lesson (see `Resources/Links.md` and `Resources/Books/reading-list.md`).
 2. **Take notes:** `<Subject>/Notes/topic-name.md`, then type `note` + Tab.
-3. **Practise:** `<Subject>/Exercises/topic-name/main.py` (or `main.cpp`), then type `pymain` or `cppmain` + Tab.
-   - **Run Python:** ▶ (top right). **Run C++:** **Ctrl+Shift+B**. **Debug:** **F5**.
+3. **Practise:** `<Subject>/Exercises/topic-name/main.py` (or `main.cpp`, `main.c`, `Main.java`, `main.js`, `main.cs`, `main.go`, `main.rs`),
+   then type the language's `main` shortcut + Tab: `pymain`, `cppmain`, `cmain`, `javamain`, `csmain`, `gomain`, or `rsmain`.
+   - **Run:** ▶ (top right) works for every language. **C++** also has **Ctrl+Shift+B**. **Debug** Python and C++: **F5**.
    - **Error?** Write it down with `bug` + Tab in your notes. You'll learn a lot from these.
 4. **Tick it off:** in the subject's `README.md`, change `- [ ]` to `- [x]`.
 5. **Log it:** `Planning/study-log.md`, then `log` + Tab.
@@ -98,11 +99,76 @@ In VS Code (with the `School` folder open), type a word and press **Tab**. Press
 | `cppmenu` | `.cpp` | A numbered menu that repeats until Quit |
 | `cpprandom` | `.cpp` | A random number in a range (needs `<random>`) |
 
-**Both languages**
+**C**
 
 | Type | In a... | You get |
 |---|---|---|
-| `problem` | `.cpp` / `.py` | Practice-problem header: name, link, idea, Big-O |
+| `cmain` | `.c` | A full C program |
+| `cfor` | `.c` | A counting for loop |
+| `cfunc` | `.c` | A function |
+| `cstruct` | `.c` | A struct with a type name |
+| `cinput` | `.c` | Read a number, and stop if it isn't one |
+| `cmalloc` | `.c` | Get memory for an array, then free it (needs <stdlib.h>) |
+
+**Java**
+
+| Type | In a... | You get |
+|---|---|---|
+| `javamain` | `.java` | A full Java program (save it as Main.java) |
+| `javafor` | `.java` | A counting for loop |
+| `javaforeach` | `.java` | Loop over every item in a list or array |
+| `javaclass` | `.java` | A class with a field and a constructor |
+| `javainput` | `.java` | Read a number from the keyboard (needs import java.util.Scanner) |
+| `javalist` | `.java` | A list you can add to (needs import java.util.*) |
+
+**JavaScript**
+
+| Type | In a... | You get |
+|---|---|---|
+| `jsfunc` | `.js` | A function |
+| `jsfor` | `.js` | Loop over every item in an array |
+| `jsarr` | `.js` | Filter and change an array in one go |
+| `jsclass` | `.js` | A class with a constructor |
+| `jsinput` | `.js` | Ask a question in the terminal (Node) |
+
+**C#**
+
+| Type | In a... | You get |
+|---|---|---|
+| `csmain` | `.cs` | A full C# program (top-level statements) |
+| `csfor` | `.cs` | A counting for loop |
+| `csforeach` | `.cs` | Loop over every item in a list or array |
+| `csinput` | `.cs` | Ask for a number until it's valid |
+| `csclass` | `.cs` | A class with a property and a constructor |
+| `cslist` | `.cs` | A list you can add to |
+
+**Go**
+
+| Type | In a... | You get |
+|---|---|---|
+| `gomain` | `.go` | A full Go program |
+| `gofor` | `.go` | A counting for loop |
+| `gorange` | `.go` | Loop over a slice or map |
+| `gofunc` | `.go` | A function |
+| `gostruct` | `.go` | A struct |
+| `goerr` | `.go` | Check an error |
+
+**Rust**
+
+| Type | In a... | You get |
+|---|---|---|
+| `rsmain` | `.rs` | A full Rust program |
+| `rsfor` | `.rs` | Loop over a range or a collection |
+| `rsfn` | `.rs` | A function |
+| `rsstruct` | `.rs` | A struct |
+| `rsinput` | `.rs` | Read a number from the keyboard |
+| `rsvec` | `.rs` | A list you can add to (Vec) |
+
+**Every language**
+
+| Type | In a... | You get |
+|---|---|---|
+| `problem` | any code file | Practice-problem header: name, link, idea, Big-O |
 
 **Web**
 
@@ -181,7 +247,8 @@ Shortcuts are defined in the hidden file `.vscode/school.code-snippets`.
      ]
    }
    ```
-   - **scope:** which files it works in: `python`, `cpp`, `markdown`, `javascript`, `html`, `sql`, or `shellscript`.
+   - **scope:** which files it works in: `python`, `cpp`, `c`, `java`, `javascript`, `csharp`, `go`, `rust`,
+     `markdown`, `html`, `sql`, or `shellscript`.
      Use `"python,cpp"` for several.
    - **prefix:** the word you type before Tab. (This example, `pyfor`, already exists, so you can try it.)
    - **body:** the text to insert, one line per `"..."`. Indent with spaces inside the quotes.
@@ -210,6 +277,17 @@ Shortcuts are defined in the hidden file `.vscode/school.code-snippets`.
 ## Suggested learning order
 1. **Python**, then **C++**. Use **Git** and **Linux** alongside them from day one.
    **IT Fundamentals** (hardware, Windows, and troubleshooting) also fits early, especially if you want an IT or security job.
+   **More languages** (optional, one at a time, once Python feels easy). Pick by what you want to do:
+
+   | Language | Good for |
+   |---|---|
+   | **C** | Understanding memory and how computers really work. Great before Computer Architecture and OS |
+   | **Java** | Big company jobs, Android, and university courses. Very similar to C# |
+   | **JavaScript** | Websites (pair it with Web Development) and Node.js servers |
+   | **C#** | Windows apps, ASP.NET websites, and Unity games |
+   | **Go** | Cloud and DevOps tools, and web servers |
+   | **Rust** | Fast, safe systems programming (best after C or C++) |
+
 2. **Data Structures and Algorithms**, with **Math for CS** at the same time
 3. **Software Engineering**
 4. **Computer Architecture**, then **Operating Systems**, then **Computer Networks**

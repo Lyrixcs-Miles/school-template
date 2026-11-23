@@ -16,6 +16,32 @@ Type `link` + Tab to add a link.
 ## Python
 - https://docs.python.org/3/tutorial/ — the official tutorial
 
+## C
+- https://beej.us/guide/bgc/ — Beej's Guide to C, free and friendly
+- https://cs50.harvard.edu/x/ — CS50 teaches C in its first weeks
+- https://en.cppreference.com/w/c — the C reference
+
+## Java
+- https://dev.java/learn/ — the official Java tutorials
+- https://java-programming.mooc.fi — University of Helsinki Java MOOC, free with exercises
+
+## JavaScript
+- https://javascript.info — the modern JavaScript tutorial, start here
+- https://nodejs.org/en/learn — learn Node.js (JavaScript outside the browser)
+
+## C#
+- https://learn.microsoft.com/dotnet/csharp/tour-of-csharp/ — the official C# tour and tutorials
+- https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/ — free certification
+
+## Go
+- https://go.dev/tour/ — A Tour of Go, interactive, start here
+- https://gobyexample.com — short, runnable examples
+
+## Rust
+- https://doc.rust-lang.org/book/ — The Rust Book, the official guide
+- https://doc.rust-lang.org/rust-by-example/ — learn by examples
+- https://github.com/rust-lang/rustlings — small exercises to fix, great practice
+
 ## Data Structures & Algorithms
 - https://visualgo.net — animated data structures
 - https://leetcode.com / https://www.hackerrank.com — practice problems

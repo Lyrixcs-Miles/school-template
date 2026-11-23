@@ -23,7 +23,23 @@ winget install --id BrechtSanders.WinLibs.POSIX.UCRT -e
 | VS Code | Where you write code and notes |
 | Git | Saves the history of your work, and uploads it to GitHub |
 | Python | Runs Python programs |
-| WinLibs (GCC) | The C++ compiler (`g++`) and debugger (`gdb`) |
+| WinLibs (GCC) | The C and C++ compilers (`gcc`, `g++`) and debugger (`gdb`) |
+
+**Other languages (optional).** Only install the ones you're going to study. You can add them later:
+```
+winget install --id OpenJS.NodeJS.LTS -e
+winget install --id Microsoft.OpenJDK.25 -e
+winget install --id Microsoft.DotNet.SDK.10 -e
+winget install --id GoLang.Go -e
+winget install --id Rustlang.Rust.GNU -e
+```
+| Tool | Language | Check it with |
+|---|---|---|
+| Node.js | JavaScript | `node --version` |
+| OpenJDK | Java | `java --version` |
+| .NET SDK | C# | `dotnet --version` |
+| Go | Go | `go version` |
+| Rust | Rust | `rustc --version` |
 
 Then **restart your PC**, or at least close every terminal and VS Code window, so the new tools are found.
 
@@ -53,6 +69,8 @@ Use the same email as your GitHub account, if you have one.
 
 Always open the `School` folder itself, not a subfolder, or the shortcuts and run buttons won't work.
 
+   Every other language: open its `Exercises/hello-world` file and press ▶ (top right).
+
 ## 6. Make it yours
 This folder is a starting point. Change anything to suit you:
 - Fill in `Planning/goals.md` and `Planning/Career/cv.md`.
@@ -68,3 +86,5 @@ This folder is a starting point. Change anything to suit you:
 The folders, notes, templates, and shortcuts all work the same. The **Ctrl+Shift+B** build task and the
 **Save my work** task are written for Windows PowerShell, so on a Mac or Linux build C++ with
 `g++ -std=c++23 -Wall main.cpp -o main && ./main`, and save with the Source Control panel.
+The ▶ button is also set up for PowerShell, so for C and Rust build in the terminal the same way
+(`gcc main.c -o main && ./main`, `rustc main.rs && ./main`). Java, JavaScript, C#, Go, and Python work as they are.
