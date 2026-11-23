@@ -8,14 +8,25 @@ In VS Code (with the `School` folder open), type a word and press **Tab**. Press
 | Type | In a... | You get |
 |---|---|---|
 | `pymain` | `.py` | A full Python program with `main()` |
-| `pyclass` | `.py` | A Python class |
-| `pyinput` | `.py` | Ask for a number until the user types a valid one |
-| `pyread` | `.py` | Read a text file line by line |
-| `pytest` | `.py` | A test (run with `python -m pytest`) |
 | `pyfor` | `.py` | A for loop over a list |
-| `problem` | `.cpp` / `.py` | Practice-problem header: name, link, idea, and Big-O |
+| `pywhile` | `.py` | A while loop |
+| `pydef` | `.py` | A function |
+| `pyclass` | `.py` | A class |
+| `pyinput` | `.py` | Ask for a number until it's valid |
+| `pytry` | `.py` | Catch an error instead of crashing |
+| `pydict` | `.py` | Loop over a dictionary |
+| `pycomp` | `.py` | Build a list in one line |
+| `pymenu` | `.py` | A numbered menu that repeats until Quit |
+| `pyread` | `.py` | Read a file line by line |
+| `pywrite` | `.py` | Write to a file |
+| `pycsv` | `.py` | Read a CSV file |
+| `pyjson` | `.py` | Load and save JSON data |
+| `pytest` | `.py` | A test (run with `python -m pytest`) |
+| `problem` | `.cpp` / `.py` | Practice-problem header: name, link, idea, Big-O |
 | `note` | `.md` | A topic note |
 | `bug` | `.md` | Record an error, its cause, and the fix |
+| `quiz` | `.md` | A question with a hidden answer, for revision |
+| `vs` | `.md` | Compare two things (TCP vs UDP, list vs tuple) |
 | `project` | `.md` | A project README |
 
 Full list: the main `README.md` at the top of the `School` folder.

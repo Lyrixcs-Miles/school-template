@@ -1,5 +1,7 @@
 # Useful Links
 
+Type `link` + Tab to add a link.
+
 ## Free courses with certificates (start here)
 - https://cs50.harvard.edu/x/ — Harvard CS50: the best intro to computer science. Free certificate.
 - https://cs50.harvard.edu/python/ — CS50 Python: a great first Python course. Free certificate.

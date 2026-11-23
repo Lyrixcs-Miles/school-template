@@ -1,5 +1,7 @@
 # Free Reading List
 
+Type `book` + Tab to add a book.
+
 Excellent books that are **legally free** to read online. Save any PDFs you
 download in this folder (PDFs aren't uploaded to GitHub, so they stay on this PC only).
 

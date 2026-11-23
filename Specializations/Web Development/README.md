@@ -9,10 +9,17 @@ In VS Code (with the `School` folder open), type a word and press **Tab**. Press
 | Type | In a... | You get |
 |---|---|---|
 | `!` | `.html` | A full HTML page (built into VS Code) |
+| `cssflex` | `.css` | Line things up in a row, or centre them |
+| `cssgrid` | `.css` | A grid of equal columns |
+| `cssmedia` | `.css` | Styles for phones (small screens) |
+| `jsel` | `.js` | Grab an element from the page |
 | `jsclick` | `.js` | Run code when something is clicked |
 | `jsfetch` | `.js` | Get data from an API |
+| `jslocal` | `.js` | Save and load data in the browser |
 | `note` | `.md` | A topic note |
 | `bug` | `.md` | Record an error, its cause, and the fix |
+| `quiz` | `.md` | A question with a hidden answer, for revision |
+| `vs` | `.md` | Compare two things (TCP vs UDP, list vs tuple) |
 | `project` | `.md` | A project README |
 
 Full list: the main `README.md` at the top of the `School` folder.

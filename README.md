@@ -65,37 +65,75 @@ In VS Code (with the `School` folder open), type a word and press **Tab**. Press
 | Type | In a... | You get |
 |---|---|---|
 | `pymain` | `.py` | A full Python program with `main()` |
-| `pyclass` | `.py` | A Python class |
-| `pyinput` | `.py` | Ask for a number until the user types a valid one |
-| `pyread` | `.py` | Read a text file line by line |
-| `pytest` | `.py` | A test (run with `python -m pytest`) |
 | `pyfor` | `.py` | A for loop over a list |
+| `pywhile` | `.py` | A while loop |
+| `pydef` | `.py` | A function |
+| `pyclass` | `.py` | A class |
+| `pyinput` | `.py` | Ask for a number until it's valid |
+| `pytry` | `.py` | Catch an error instead of crashing |
+| `pydict` | `.py` | Loop over a dictionary |
+| `pycomp` | `.py` | Build a list in one line |
+| `pymenu` | `.py` | A numbered menu that repeats until Quit |
+| `pyread` | `.py` | Read a file line by line |
+| `pywrite` | `.py` | Write to a file |
+| `pycsv` | `.py` | Read a CSV file |
+| `pyjson` | `.py` | Load and save JSON data |
+| `pytest` | `.py` | A test (run with `python -m pytest`) |
 
 **C++**
 
 | Type | In a... | You get |
 |---|---|---|
 | `cppmain` | `.cpp` | A full C++ program |
+| `cppfor` | `.cpp` | A counting for loop |
+| `cppforeach` | `.cpp` | Loop over every item in a container |
+| `cppfunc` | `.cpp` | A function |
+| `cppstruct` | `.cpp` | A struct |
 | `cppclass` | `.cpp` / `.h` | A class with a constructor |
 | `cppheader` | `.h` | A header file with `#pragma once` |
-| `cppinput` | `.cpp` | Read n numbers from the user into a vector |
+| `cppinput` | `.cpp` | Read n numbers into a vector |
+| `cppprint` | `.cpp` | Print a vector |
+| `cppmap` | `.cpp` | Print every key and value in a map |
+| `cppfile` | `.cpp` | Read a file line by line (needs `<fstream>`) |
+| `cppmenu` | `.cpp` | A numbered menu that repeats until Quit |
+| `cpprandom` | `.cpp` | A random number in a range (needs `<random>`) |
 
 **Both languages**
 
 | Type | In a... | You get |
 |---|---|---|
-| `problem` | `.cpp` / `.py` | Practice-problem header: name, link, idea, and Big-O |
+| `problem` | `.cpp` / `.py` | Practice-problem header: name, link, idea, Big-O |
 
-**Web, SQL, Bash, Docker**
+**Web**
 
 | Type | In a... | You get |
 |---|---|---|
 | `!` | `.html` | A full HTML page (built into VS Code) |
+| `cssflex` | `.css` | Line things up in a row, or centre them |
+| `cssgrid` | `.css` | A grid of equal columns |
+| `cssmedia` | `.css` | Styles for phones (small screens) |
+| `jsel` | `.js` | Grab an element from the page |
 | `jsclick` | `.js` | Run code when something is clicked |
 | `jsfetch` | `.js` | Get data from an API |
+| `jslocal` | `.js` | Save and load data in the browser |
+
+**SQL**
+
+| Type | In a... | You get |
+|---|---|---|
 | `sqltable` | `.sql` | CREATE TABLE |
+| `sqlinsert` | `.sql` | Add a row |
 | `sqlselect` | `.sql` | A SELECT query |
+| `sqlupdate` | `.sql` | Change rows (with a WHERE) |
+| `sqljoin` | `.sql` | Combine two tables |
+| `sqlgroup` | `.sql` | Count rows per group |
+
+**Bash and Docker**
+
+| Type | In a... | You get |
+|---|---|---|
 | `bashscript` | `.sh` | A Bash script skeleton |
+| `bashfor` | `.sh` | Loop over files or values |
 | `dockerpy` | `Dockerfile` | Run a Python app in a container |
 
 **Notes**
@@ -104,11 +142,15 @@ In VS Code (with the `School` folder open), type a word and press **Tab**. Press
 |---|---|---|
 | `note` | `.md` | A topic note |
 | `bug` | `.md` | Record an error, its cause, and the fix |
+| `quiz` | `.md` | A question with a hidden answer, for revision |
+| `vs` | `.md` | Compare two things (TCP vs UDP, list vs tuple) |
 | `project` | `.md` | A project README |
 | `cmdtable` | `.md` | Start a table of commands |
-| `cmd` | `.md` | Add a command row: command, what it does, example |
+| `cmd` | `.md` | Add a command row |
 | `ctf` | `.md` | A CTF challenge writeup |
 | `term` | `.md` | A glossary row |
+| `link` | `.md` | A link with a note |
+| `book` | `.md` | A reading-list row |
 
 **Planning and career**
 
@@ -120,7 +162,6 @@ In VS Code (with the `School` folder open), type a word and press **Tab**. Press
 | `portfolio` | `.md` | A portfolio row |
 | `apply` | `.md` | A job application row with today's date |
 | `star` | `.md` | An interview answer (Situation, Task, Action, Result) |
-
 Each subject's README lists the shortcuts for that subject.
 Shortcuts are defined in the hidden file `.vscode/school.code-snippets`.
 

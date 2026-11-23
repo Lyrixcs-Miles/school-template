@@ -13,12 +13,23 @@ In VS Code (with the `School` folder open), type a word and press **Tab**. Press
 | Type | In a... | You get |
 |---|---|---|
 | `cppmain` | `.cpp` | A full C++ program |
+| `cppfor` | `.cpp` | A counting for loop |
+| `cppforeach` | `.cpp` | Loop over every item in a container |
+| `cppfunc` | `.cpp` | A function |
+| `cppstruct` | `.cpp` | A struct |
 | `cppclass` | `.cpp` / `.h` | A class with a constructor |
 | `cppheader` | `.h` | A header file with `#pragma once` |
-| `cppinput` | `.cpp` | Read n numbers from the user into a vector |
-| `problem` | `.cpp` / `.py` | Practice-problem header: name, link, idea, and Big-O |
+| `cppinput` | `.cpp` | Read n numbers into a vector |
+| `cppprint` | `.cpp` | Print a vector |
+| `cppmap` | `.cpp` | Print every key and value in a map |
+| `cppfile` | `.cpp` | Read a file line by line (needs `<fstream>`) |
+| `cppmenu` | `.cpp` | A numbered menu that repeats until Quit |
+| `cpprandom` | `.cpp` | A random number in a range (needs `<random>`) |
+| `problem` | `.cpp` / `.py` | Practice-problem header: name, link, idea, Big-O |
 | `note` | `.md` | A topic note |
 | `bug` | `.md` | Record an error, its cause, and the fix |
+| `quiz` | `.md` | A question with a hidden answer, for revision |
+| `vs` | `.md` | Compare two things (TCP vs UDP, list vs tuple) |
 | `project` | `.md` | A project README |
 
 Full list: the main `README.md` at the top of the `School` folder.
