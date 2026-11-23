@@ -1,0 +1,50 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build & run current C++ file",
+      "type": "shell",
+      "command": "g++ -std=c++23 -Wall -g \"${file}\" -o \"${fileDirname}\\${fileBasenameNoExtension}.exe\"; if ($?) { & \"${fileDirname}\\${fileBasenameNoExtension}.exe\" }",
+      "options": {
+        "shell": {
+          "executable": "powershell.exe"
+        }
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Build current C++ file (debug)",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-std=c++23",
+        "-Wall",
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Save my work to GitHub",
+      "type": "shell",
+      "command": "git add -A; git commit -m (\"Study session \" + (Get-Date -Format 'yyyy-MM-dd')); git push",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "powershell.exe"
+        }
+      },
+      "problemMatcher": []
+    }
+  ]
+}

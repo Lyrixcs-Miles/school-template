@@ -1,0 +1,31 @@
+{
+  "C_Cpp.default.cppStandard": "c++23",
+  "C_Cpp.default.intelliSenseMode": "windows-gcc-x64",
+  "editor.formatOnSave": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/.gitkeep": true,
+    "**/__pycache__": true,
+    "**/*.exe": true
+  },
+  "editor.tabCompletion": "onlySnippets",
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "on"
+    },
+    "editor.snippetSuggestions": "top",
+    "files.trimTrailingWhitespace": false
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.fileDirectoryAsCwd": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.executorMap": {
+    "cpp": "cd $dirWithoutTrailingSlash; g++ -std=c++23 -Wall -g \"$fileName\" -o \"$fileNameWithoutExt.exe\"; if ($?) { & \".\\$fileNameWithoutExt.exe\" }",
+    "python": "python -u",
+    "javascript": "node"
+  }
+}

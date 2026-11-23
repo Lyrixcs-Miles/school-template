@@ -1,0 +1,16 @@
+# Runs the app plus a PostgreSQL database together.
+# Start: docker compose up      Stop: docker compose down
+services:
+  app:
+    build: .
+    depends_on: [db]
+    environment:
+      DATABASE_URL: postgresql://student:student@db:5432/school
+
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: student
+      POSTGRES_PASSWORD: student
+      POSTGRES_DB: school
+    ports: ["5432:5432"]

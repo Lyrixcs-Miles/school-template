@@ -1,0 +1,37 @@
+# Compiled output
+*.exe
+*.o
+*.obj
+build/
+bin/
+obj/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Big files: keep these on disk, not in Git (GitHub rejects files over 100 MB)
+*.pdf
+*.zip
+*.7z
+*.rar
+*.iso
+*.ova
+*.vdi
+*.vmdk
+*.mp4
+
+# Unsorted downloads
+Inbox/*
+!Inbox/.gitkeep
+
+# OS / editor junk
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Build folders from CMake and Python test caches
+.pytest_cache/
+CMakeFiles/
