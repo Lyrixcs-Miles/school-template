@@ -8,7 +8,8 @@ In VS Code (with the `School` folder open), type a word and press **Tab**. Press
 | `cppmain` | `.cpp` | A full C++ program |
 | `note` | `.md` | A topic note |
 | `bug` | `.md` | Record an error, its cause, and the fix |
-| `quiz` | `.md` | A question with a hidden answer, for revision |
+| `quizstart` | `.md` | A **Test yourself** heading plus the first quiz question |
+| `quiz` | `.md` | Another quiz question (the answer stays hidden in preview) |
 | `vs` | `.md` | Compare two things (TCP vs UDP, list vs tuple) |
 | `project` | `.md` | A project README |
 

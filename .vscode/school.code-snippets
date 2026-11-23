@@ -701,10 +701,8 @@
   "Self-quiz question": {
     "scope": "markdown",
     "prefix": "quiz",
-    "description": "A question with a hidden answer, for revision",
+    "description": "Another question with a hidden answer (use quizstart for the first one)",
     "body": [
-      "## Test yourself",
-      "",
       "**Q: ${1:Question}**",
       "<details>",
       "<summary>Answer</summary>",
@@ -729,6 +727,23 @@
     "description": "A row for Resources/Books/reading-list.md",
     "body": [
       "| [ ] | *${1:Title}*, ${2:Author} | ${3:Subject} | ${4:https://} |"
+    ]
+  },
+  "Self-quiz start": {
+    "scope": "markdown",
+    "prefix": "quizstart",
+    "description": "A 'Test yourself' heading plus the first question",
+    "body": [
+      "## Test yourself",
+      "",
+      "**Q: ${1:Question}**",
+      "<details>",
+      "<summary>Answer</summary>",
+      "",
+      "${0:Answer}",
+      "",
+      "</details>",
+      ""
     ]
   }
 }
